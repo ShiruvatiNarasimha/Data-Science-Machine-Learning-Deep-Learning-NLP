@@ -7,23 +7,12 @@ total = 1+2+3\
 
 
 print(total)
-
-
 x=5; y=10; z=x+y
 print(z)
 
-
-
-
-
-
 age= 28
 if age > 18:
-    print("you are an adult")
-
-
-
-
+    print("you are adult ")
 
 
 age = 34
@@ -33,7 +22,6 @@ type(name)
 
 
 ## Declaring And Assigning Variables
-
 age=32
 height=5.9
 name= "shiruvati"
@@ -49,13 +37,13 @@ print("is_student:", is_student)
 
 heigth=5.1
 type(heigth)
-
 float(int(heigth))
 
 
 
- ## input
 
+
+ ## input
 age=input("What is your age?")
 print(age,type(age))
 age=int(input("What is your age?"))
