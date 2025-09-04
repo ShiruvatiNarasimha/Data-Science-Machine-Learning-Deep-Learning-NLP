@@ -70,5 +70,58 @@ result2 = P or   U
 print(result2)
 
 
-M=True
-not M
+
+
+## if statement
+
+
+age = 20
+
+if age>=18:
+    print("You are allowed to vote in the election")
+
+
+
+
+
+    ##  else 
+
+age = 16
+
+if age>=18:
+    print("You are eligible for voting")
+else:
+    print("You are a minor")    
+
+
+
+
+
+
+## elif
+
+age = 18
+
+if age<13:
+    print("You are child")
+elif age<=18:
+    print("you are a teenager")    
+else:
+    print("You are an adult")
+
+
+
+
+
+## Nested Loop
+
+num=int(input("Enter the number"))
+
+if num>0:
+    print("The number is Positive")
+    if num%2==0:
+        print("The number is even")
+    else:
+        print("The number is odd")    
+else:
+    print("The number is Zero or negative")        
