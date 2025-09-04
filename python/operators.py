@@ -18,3 +18,57 @@ print(multiply_result)
 print(divide_result)
 print(modulus_result)
 print(exponent_result)
+
+
+
+
+
+## Comparison Operators
+x = 10
+y = 10
+
+x = y
+
+
+
+## Not Equal Operator
+
+str3 = "shiruvati"
+str4 = "shiruvati"
+
+str3!=str4
+
+
+
+## greater than
+
+num1 = 45
+num2 = 55
+
+num1>num2
+
+
+
+
+## Logic operators
+
+
+
+## And, Not, Or
+
+
+P = True
+U = True
+
+result = P and U
+print(result)
+
+P = False
+U = False
+
+result2 = P or   U
+print(result2)
+
+
+M=True
+not M
